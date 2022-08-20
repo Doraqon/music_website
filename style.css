@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(109, 84, 125)
+}
+
+li, a, button {
+    font-family: "Kosugi", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
